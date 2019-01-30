@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Parallax Demo</title>
+    <script src="index.js"></script>
+    <style type="text/css">
+      html, body { width: 100%; height: 100%; }
+      
+      .layer {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+      }
+
+      body {
+        background: blue;
+      }
+
+      .flex {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .background {
+        position: relative;
+        z-index: 0;
+      }
+
+      div.block {
+        width: 200px;
+        height: 200px;
+        background: white;
+        position: relative;
+        z-index: 1;
+        box-shadow: 10px 10px 146px 0px rgba(0,0,0,0.75);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="layer flex" style="z-index: 1">
+      <div class="block"></div>
+    </div>
+    <div class="layer flex" style="z-index: 0">
+      <img src="pic.jpg" class="background">
+    </div>
+  </body>
+</html>

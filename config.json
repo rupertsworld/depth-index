@@ -1,0 +1,10 @@
+{
+  "width": 600,
+  "height": 500,
+  "mobileNetArchitecture": 0.75,
+  "outputStride": 16,
+  "flipHorizontal": true,
+  "imageScaleFactor": 0.33,
+  "minPoseConfidence": 0.2,
+  "minPartConfidence": 0.1
+}
