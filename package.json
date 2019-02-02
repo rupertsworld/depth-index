@@ -5,6 +5,9 @@
   "main": "index.js",
   "author": "Rupert Parry <ruparry@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "parcel serve index.html"
+  },
   "dependencies": {
     "@tensorflow-models/posenet": "^0.2.3",
     "@tensorflow/tfjs": "^0.14.2",
