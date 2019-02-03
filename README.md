@@ -1,10 +1,10 @@
 # Depth Index 🐋
 
-<img src="example.gif" alt="Depth-Index rendering a deep mountain range image">
-
 > A JavaScript package that turns z-index into physically realistic depth, using PoseNet face tracking. Deep, man.
 
-Have you ever wanted your boring 2D web pages to have, like, one more dimension? Depth Index to the rescue. It's a rough experiment into adding more depth to your computer screen. This probably ain't production ready, folks.
+<img src="example.gif" alt="Depth-Index rendering a deep mountain range image">
+
+Have you ever wanted your boring 2D web pages to have, like, one more dimension? Depth Index to the rescue. It's a rough experiment into adding more depth to your computer screen, by tracking your eyes. This probably ain't production ready, folks.
 
 ## How it works
 
