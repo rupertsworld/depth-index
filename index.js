@@ -2,15 +2,16 @@ import 'babel-polyfill';
 const config = require('./config.json');
 import PosenetController from './posenet-controller';
 import {getMidpoint, getKeypoints, getDistance} from './helpers';
-import { configure } from 'protobufjs';
-import { SSL_OP_SSLEAY_080_CLIENT_DH_BUG } from 'constants';
 
 const baseEyespan = 7; // cm
 const smoothing = 0.7;
 const smoothingScale = 0.95;
 
 const posenetController = new PosenetController(onPoseDetected);
-posenetController.initialize();
+
+function initialize() {
+  posenetController.initialize();
+}
 
 
 let [x0, y0, eyespan0] = [0, 0, 0];
@@ -61,3 +62,5 @@ function onPoseDetected(pose) {
     lastOffsets = [xOffset, yOffset];
   });
 }
+
+exports.initialize = initialize;

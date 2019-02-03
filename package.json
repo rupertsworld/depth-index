@@ -1,18 +1,12 @@
 {
   "name": "depth-index",
-  "version": "0.1",
-  "description": "A JavaScript experiment into face tracking & depth.",
+  "version": "1.0.0",
+  "description": "A JavaScript package that turns z-index into physically realistic depth, using PoseNet face tracking.",
   "main": "index.js",
   "author": "Rupert Parry <ruparry@gmail.com>",
   "license": "MIT",
-  "scripts": {
-    "start": "parcel serve index.html"
-  },
   "dependencies": {
     "@tensorflow-models/posenet": "^0.2.3",
-    "@tensorflow/tfjs": "^0.14.2",
-    "babel-polyfill": "^6.26.0",
-    "config.json": "^0.0.4",
-    "parcel": "^1.11.0"
+    "@tensorflow/tfjs": "^0.14.2"
   }
 }
