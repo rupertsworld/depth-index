@@ -1,6 +1,6 @@
 # Depth Index 🐋
 
-<a href="assets/demo-video.mov"><img src="assets/screenshot.png" alt="Depth-Index rendering a deep mountain range image"></a>
+<img src="example.gif" alt="Depth-Index rendering a deep mountain range image">
 
 https://raw.githubusercontent.com/rupertparry/blobcam-experiment/master/example.png
 > A JavaScript package that turns z-index into physically realistic depth, using PoseNet face tracking. Deep, man.
