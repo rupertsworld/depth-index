@@ -1,6 +1,6 @@
 {
   "name": "depth-index",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A JavaScript package that turns z-index into physically realistic depth, using PoseNet face tracking.",
   "main": "index.js",
   "author": "Rupert Parry <ruparry@gmail.com>",

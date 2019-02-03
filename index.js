@@ -8,11 +8,7 @@ const smoothing = 0.7;
 const smoothingScale = 0.95;
 
 const posenetController = new PosenetController(onPoseDetected);
-
-function initialize() {
-  posenetController.initialize();
-}
-
+posenetController.initialize();
 
 let [x0, y0, eyespan0] = [0, 0, 0];
 function smooth(x, y, eyespan) {
@@ -62,5 +58,3 @@ function onPoseDetected(pose) {
     lastOffsets = [xOffset, yOffset];
   });
 }
-
-exports.initialize = initialize;
