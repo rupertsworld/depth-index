@@ -1,6 +1,6 @@
 # Depth Index 🐋
 
-<a href="https://raw.githubusercontent.com/rupertparry/depth-index/branch/assets/demo-video.mov"><img src="https://raw.githubusercontent.com/rupertparry/depth-index/branch/assets/screenshot.png" alt="Depth-Index rendering a deep mountain range image"></a>
+<a href="https://raw.githubusercontent.com/rupertparry/depth-index/master/assets/demo-video.mov"><img src="https://raw.githubusercontent.com/rupertparry/depth-index/master/assets/screenshot.png" alt="Depth-Index rendering a deep mountain range image"></a>
 
 > A JavaScript package that turns z-index into physically realistic depth, using PoseNet face tracking. Deep, man.
 
