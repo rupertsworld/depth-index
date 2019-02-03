@@ -28,6 +28,6 @@ Now, tell depth-index which layers you would like depth to apply to. Give them t
 
 So, if you want an object to appear to be 10cm inside the screen, simply write:
 
-`&lt;div class="depth-layer" style="z-index: -10"&gt;&lt;/div&gt;`
+`<div class="depth-layer" style="z-index: -10"></div>`
 
 Enjoy getting deep.
